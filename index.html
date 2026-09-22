@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banu S — Marriage Bio-Data & Portfolio | Chennai</title>
+  <meta name="description"
+    content="Marriage Bio-Data and portfolio of Banu S, B.E. Computer Science Engineering, working at E-con Systems India Pvt. Ltd., Chennai. Regular Pioneer, Mudichur Congregation.">
+
+  <!-- Favicon Monogram -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23133827' stroke='%23d4af37' stroke-width='4'/><text x='50%' y='56%' font-size='46' font-family='serif' font-weight='bold' fill='%23f3e5ab' dominant-baseline='middle' text-anchor='middle'>B</text></svg>">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       ROYAL PRELOADER / WELCOME INTRO SCREEN
+       ========================================================================== -->
+  <div id="page-preloader" class="page-preloader" role="status" aria-live="polite" aria-label="Loading Banu's Profile">
+    <div class="preloader-bg-ambient">
+      <div class="preloader-orb preloader-orb-1"></div>
+      <div class="preloader-orb preloader-orb-2"></div>
+      <div class="preloader-glow-spot"></div>
+    </div>
+    <div class="preloader-content">
+      <!-- Welcome Message -->
+      <div class="preloader-text-group">
+        <h1 class="preloader-heading">
+          <span class="preloader-welcome-text">Welcome to</span>
+          <span class="preloader-name-text">Banu's Profile</span>
+        </h1>
+      </div>
+
+      <!-- Progress Meter -->
+      <div class="preloader-meter-wrap">
+        <div class="preloader-meter-track">
+          <div class="preloader-meter-fill" id="preloader-progress-fill"></div>
+          <div class="preloader-meter-light"></div>
+        </div>
+        <div class="preloader-status-row">
+          <span class="preloader-status-label" id="preloader-status-label">Loading profile...</span>
+          <span class="preloader-status-pct" id="preloader-pct">0%</span>
+        </div>
+      </div>
+
+      <!-- Enter Action (Unlocks Ambient Sound & Welcomes) -->
+      <div id="preloader-enter-action" class="preloader-enter-action" style="display: none; margin-top: 1.5rem;">
+        <!-- <button id="preloader-enter-btn" class="btn btn-gold"
+          style="font-size: 0.95rem; padding: 0.8rem 2.2rem; box-shadow: 0 4px 25px rgba(212, 175, 55, 0.6); cursor: pointer;">
+         <span>✨ Enter Profile</span> 
+        </button-->
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Sparkles Canvas -->
+  <canvas id="sparkle-canvas"></canvas>
+
+  <!-- Ambient Glowing Orbs Background -->
+  <div class="ambient-glow">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
+
+  <div class="content-wrapper">
+
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="nav-brand">
+          <div class="brand-monogram">B</div>
+          <div class="brand-text-group">
+            <span class="brand-name">BANU S</span>
+            <span class="brand-subtitle">Marriage Bio-Data</span>
+          </div>
+        </a>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about" class="nav-link">Personal Profile</a></li>
+            <li><a href="#spiritual" class="nav-link">Spiritual Journey</a></li>
+            <li><a href="#career" class="nav-link">Education & Work</a></li>
+            <li><a href="#family" class="nav-link">Family Heritage</a></li>
+            <li><a href="#gallery" class="nav-link">Photo Gallery</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- <div class="nav-actions">
+          Theme Toggle -->
+        <!-- <button id="theme-toggle-btn" class="btn btn-icon-only" title="Toggle Pearl / Emerald Theme"
+          aria-label="Toggle Theme">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <path
+              d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42">
+            </path>
+          </svg>
+        </button> -->
+
+        <!-- Download / Print PDF -->
+        <button class="btn btn-outline-gold trigger-print-bio" title="Print or Save Bio-Data as PDF">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>Print Bio-Data</span>
+        </button>
+      </div>
+  </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="traditional-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z">
+              </path>
+            </svg>
+            <span>Matrimonial Profile & Bio-Data</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="text-gradient-gold">Banu S</span>
+          </h1>
+
+          <div class="hero-designation">
+            <span class="font-serif">B.E. Computer Science Engineering</span>
+            <span style="color: var(--gold-primary);">•</span>
+            <span>Software Professional</span>
+          </div>
+
+          <p class="hero-summary">
+            Welcome to the official marriage bio-data of <strong>Banu S</strong>. An accomplished software engineer at
+            <strong>E-con Systems India Pvt. Ltd.</strong>, deeply rooted in family values, graceful tradition, and
+            dedicated spiritual devotion as a Regular Pioneer in Chennai.
+          </p>
+
+          <!-- Quick Metrics Cards -->
+          <div class="hero-stats-row">
+            <div class="stat-card">
+              <div class="stat-label">Age & DOB</div>
+              <div class="stat-value">27 Yrs <span
+                  style="font-size:0.75rem; color:var(--text-muted); font-weight:normal;">(23/02/1999)</span></div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Spiritual Status</div>
+              <div class="stat-value">Regular Pioneer</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Current Location</div>
+              <div class="stat-value">Chennai, TN</div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-gold">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <span>Connect with Family</span>
+            </a>
+
+            <a href="#gallery" class="btn btn-glass">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+              </svg>
+              <span>View Real Photo Gallery</span>
+            </a>
+
+            <button class="btn btn-outline-gold trigger-print-bio" title="Download Printable PDF">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Save Bio PDF</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Visual Frame (Featured Authentic Portrait) -->
+        <div class="hero-visual-wrapper">
+          <div class="ornate-halo"></div>
+
+          <div class="portrait-frame">
+            <div class="frame-corner frame-corner-tl"></div>
+            <div class="frame-corner frame-corner-br"></div>
+
+            <div class="portrait-inner">
+              <!-- Authentic Uploaded Photo Only -->
+              <img src="assets/images/photo-1.jpg" alt="Banu S - Elegant Portrait in Emerald Green Saree"
+                class="portrait-img">
+              <div style="text-align: right;">
+                <span
+                  style="font-size: 0.72rem; color: var(--gold-light); font-weight: 600; text-transform: uppercase;">Chennai</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Personal & Spiritual Profile Section -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+            </polygon>
+          </svg>
+          Personal Credentials
+        </span>
+        <h2 class="section-title">Personal & Spiritual Profile</h2>
+        <p class="section-subtitle">Comprehensive background details verified from the authentic marriage bio-data
+          document.</p>
+        <div class="ornament-divider">
+          <div class="ornament-line"></div>
+          <div class="ornament-diamond"></div>
+          <div class="ornament-line right"></div>
+        </div>
+      </div>
+
+      <div class="bio-grid">
+
+        <!-- Card 1: Personal Details -->
+        <div class="bio-card">
+          <div class="card-header-group">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title">Personal Details</h3>
+              <span class="card-subtitle">Identity & Demographics</span>
+            </div>
+          </div>
+
+          <div class="details-list">
+            <div class="detail-item">
+              <span class="detail-label">Full Name</span>
+              <span class="detail-value highlight">Banu S</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Date of Birth</span>
+              <span class="detail-value">23 / 02 / 1999</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Age</span>
+              <span class="detail-value">27 Years</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Native & Location</span>
+              <span class="detail-value">Paramakudi</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Marital Status</span>
+              <span class="detail-value">Never Married</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Languages Known</span>
+              <span class="detail-value">Tamil, English</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Spiritual Status & Dedication -->
+        <div id="spiritual" class="bio-card">
+          <div class="card-header-group">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title">Spiritual Status</h3>
+              <span class="card-subtitle">Devotion & Congregation</span>
+            </div>
+          </div>
+
+          <div class="details-list">
+            <div class="detail-item">
+              <span class="detail-label">Spiritual Status</span>
+              <span class="detail-value highlight">Regular Pioneer</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Date of Baptism</span>
+              <span class="detail-value">January 02, 2022</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Congregation</span>
+              <span class="detail-value">Mudichur Congregation</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">City</span>
+              <span class="detail-value">Chennai</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Spiritual Goals</span>
+              <span class="detail-value">Continued faithful pioneer ministry</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Education & Career Details -->
+        <div id="career" class="bio-card">
+          <div class="card-header-group">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title">Education & Work</h3>
+              <span class="card-subtitle">Professional Career</span>
+            </div>
+          </div>
+
+          <div class="details-list">
+            <div class="detail-item">
+              <span class="detail-label">Qualification</span>
+              <span class="detail-value highlight">B.E. Computer Science</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Specialization</span>
+              <span class="detail-value">Computer Science & Engineering</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Company</span>
+              <span class="detail-value highlight">E-con Systems India Pvt. Ltd.</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Work Location</span>
+              <span class="detail-value">Chennai, India</span>
+            </div>
+            <!-- <div class="detail-item">
+              <span class="detail-label">Industry</span>
+              <span class="detail-value">Embedded Vision & IT Systems</span>
+            </div>
+          </div> -->
+          </div>
+
+        </div>
+
+      </div>
+  </section>
+
+  <!-- Family Details Section -->
+  <section id="family" class="section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+          Heritage & Roots
+        </span>
+        <h2 class="section-title">Family Details</h2>
+        <p class="section-subtitle">A close-knit, loving family grounded in moral integrity, education, and shared
+          affection.</p>
+        <div class="ornament-divider">
+          <div class="ornament-line"></div>
+          <div class="ornament-diamond"></div>
+          <div class="ornament-line right"></div>
+        </div>
+      </div>
+
+      <div class="family-tree-grid">
+
+        <!-- Father -->
+        <div class="family-member-box">
+          <div class="member-relation">Father</div>
+          <div class="member-name">Mr. Sivakumar</div>
+          <div class="member-details">Head of the family, guiding with wisdom, warmth, and care.</div>
+        </div>
+
+        <!-- Mother -->
+        <div class="family-member-box">
+          <div class="member-relation">Mother</div>
+          <div class="member-name">Mrs. Sundari</div>
+          <div class="member-details">Homemaker nurturing home values, mutual respect, and tradition.</div>
+        </div>
+
+        <!-- Sister -->
+        <div class="family-member-box">
+          <div class="member-relation">Sister</div>
+          <div class="member-name">Kowsalya</div>
+          <div class="member-details">B.Sc. Agriculture (Preparing for Banking & Public Sector Examinations).</div>
+        </div>
+
+        <!-- Brother -->
+        <div class="family-member-box">
+          <div class="member-relation">Brother</div>
+          <div class="member-name">Rajesh</div>
+          <div class="member-details">Software Developer in the technology sector.</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Reusable Photo Gallery Component Section -->
+  <section id="gallery" class="section section-alt gallery-section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          Authentic Photo Showcase
+        </span>
+        <h2 class="section-title">Photo Gallery</h2>
+        <p class="section-subtitle">Exclusively displaying authentic photographs of Banu S in traditional attire and
+          special moments. Zero AI faces or stock models.</p>
+        <div class="ornament-divider">
+          <div class="ornament-line"></div>
+          <div class="ornament-diamond"></div>
+          <div class="ornament-line right"></div>
+        </div>
+      </div>
+
+      <!-- Dynamic Gallery Grid Container (Fit to display) -->
+      <div id="gallery-grid" class="gallery-grid">
+        <!-- Populated by ReusableGallery class in js/gallery.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Partner Expectations / Values -->
+  <section class="section">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+            </path>
+          </svg>
+          Aspirations & Mutual Goals
+        </span>
+        <h2 class="section-title">Partner Preferences & Values</h2>
+        <p class="section-subtitle">Building a harmonious life together rooted in shared spiritual commitment and
+          mutual respect.</p>
+        <div class="ornament-divider">
+          <div class="ornament-line"></div>
+          <div class="ornament-diamond"></div>
+          <div class="ornament-line right"></div>
+        </div>
+      </div>
+
+      <div class="bio-grid">
+        <div class="bio-card">
+          <div class="card-header-group">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title">Spiritual Focus</h3>
+              <span class="card-subtitle">Faith & Conviction</span>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem;">
+            Seeking a spiritually mature brother who values regular spiritual fellowship, prioritizes sacred service,
+            and desires a peaceful, God-honoring Christian family.
+          </p>
+        </div>
+
+        <div class="bio-card">
+          <div class="card-header-group">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title">Education & Career</h3>
+              <span class="card-subtitle">Professional Growth</span>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem;">
+            Professionally qualified graduate or postgraduate (Engineering / Technology / Professional Services) with
+            stable career prospects and progressive mindset.
+          </p>
+        </div>
+
+        <div class="bio-card">
+          <div class="card-header-group">
+            <div class="card-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="card-title">Family Culture</h3>
+              <span class="card-subtitle">Respect & Compassion</span>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem;">
+            Warm, supportive, and understanding demeanor. Someone who appreciates family traditions, communicates with
+            kindness, and fosters genuine mutual affection.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact & Family Connect + Wishes Board -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          Communication & Connect
+        </span>
+        <h2 class="section-title">Connect with Family</h2>
+        <p class="section-subtitle">Interested families and guardians are warmly welcomed to contact the parents
+          directly.</p>
+        <div class="ornament-divider">
+          <div class="ornament-line"></div>
+          <div class="ornament-diamond"></div>
+          <div class="ornament-line right"></div>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Direct Contact Card -->
+        <div class="contact-highlight-card">
+          <h3 class="font-display text-gradient-gold" style="font-size: 1.8rem; margin-bottom: 0.5rem;">Family Contact
+          </h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem;">
+            You may directly reach out to Banu's family via phone call or WhatsApp message for matrimonial
+            discussions.
+          </p>
+
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <div class="contact-icon-circle">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-info-label">Direct Phone / Call</div>
+                <div class="contact-info-value">+91 94874 14817</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon-circle">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-info-label">Residence & Congregation</div>
+                <div class="contact-info-value">Mudichur, Chennai, TN</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="connect-actions-row">
+            <a href="tel:+919487414817" class="btn btn-gold">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <span>Call +91 94874 14817</span>
+            </a>
+
+            <a href="https://wa.me/919487414817?text=Hello%20Mr.%20Sivakumar%2C%20I%20came%20across%20the%20marriage%20bio-data%20of%20Banu%20S%20and%20would%20like%20to%20connect%20with%20your%20family."
+              target="_blank" rel="noopener noreferrer" class="btn btn-glass"
+              style="border-color: #25D366; color: #f0fff4;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color: #25D366;">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z">
+                </path>
+              </svg>
+              <span>WhatsApp Message</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Blessings & Well Wishes Board -->
+        <div class="wishes-card-wrapper">
+          <h3 class="font-display" style="font-size: 1.4rem; color: var(--gold-light); margin-bottom: 0.5rem;">
+            Blessings & Wishes</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+            Leave an encouraging note or prayer for Banu and family:
+          </p>
+
+          <form id="wishes-form" class="wishes-input-form">
+            <div class="form-group">
+              <input type="text" id="wish-name" placeholder="Your Name / Relation (e.g. Bro. David, Chennai)" required>
+            </div>
+            <div class="form-group">
+              <textarea id="wish-message" rows="3" placeholder="Share your warm thoughts or blessings..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold" style="align-self: flex-start;">
+              <span>Send Blessing</span>
+            </button>
+          </form>
+
+          <div id="wishes-list" class="wishes-list">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-monogram">B</div>
+      <p class="footer-quote">
+        “May love and faithfulness never leave you; bind them around your neck, write them on the tablet of your
+        heart.”
+      </p>
+      <p class="footer-copy">
+        Marriage Bio-Data of <strong>Banu S</strong> • Mudichur Congregation, Chennai • Contact: 94874 14817
+      </p>
+      <p style="font-size: 0.72rem; color: var(--text-muted); margin-top: 0.5rem;">
+        Designed with royal dignity, pure typography, and authentic photography.
+      </p>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Photo Lightbox">
+    <div class="lightbox-content-box">
+      <button class="lightbox-close-btn" aria-label="Close Lightbox">&times;</button>
+      <button class="lightbox-nav-btn lightbox-prev" aria-label="Previous Photo">&#10094;</button>
+      <button class="lightbox-nav-btn lightbox-next" aria-label="Next Photo">&#10095;</button>
+
+      <div class="lightbox-img-wrapper">
+        <img src="" alt="Enlarged Bio-Data Photo" class="lightbox-img">
+      </div>
+
+      <div class="lightbox-caption-bar">
+        <h4 class="lightbox-caption-title"></h4>
+        <p class="lightbox-caption-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Real Photo Modal (Reusable Gallery Extender) -->
+  <div id="add-photo-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Add Photo Modal">
+    <div class="modal-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+        <h3 class="font-display text-gradient-gold" style="font-size: 1.35rem;">Add Real Photo to Gallery</h3>
+        <button id="close-add-photo-modal"
+          style="background: none; border: none; color: var(--gold-light); font-size: 1.6rem; cursor: pointer;">&times;</button>
+      </div>
+
+      <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">
+        You can drop or browse another real photograph of Banu to instantly preview it in the interactive gallery.
+      </p>
+
+      <div id="photo-dropzone" class="dropzone-area">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          style="margin-bottom: 0.5rem; color: var(--gold-primary);">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="17 8 12 3 7 8"></polyline>
+          <line x1="12" y1="3" x2="12" y2="15"></line>
+        </svg>
+        <p style="font-weight: 600; color: var(--gold-light);">Click to browse or drag & drop photo here</p>
+        <span style="font-size: 0.75rem; color: var(--text-muted);">Supports JPG, PNG, WebP</span>
+      </div>
+      <input type="file" id="photo-file-input" accept="image/*" style="display: none;">
+
+      <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+        <div class="form-group">
+          <input type="text" id="new-photo-title" placeholder="Photo Caption / Title (e.g. Traditional Celebration)">
+        </div>
+        <div class="form-group">
+          <select id="new-photo-category"
+            style="width: 100%; background: rgba(8, 26, 18, 0.7); border: 1px solid var(--border-gold); border-radius: var(--radius-sm); padding: 0.85rem; color: var(--text-main); font-family: inherit;">
+            <option value="traditional">Traditional Attire</option>
+            <option value="portrait">Portrait</option>
+            <option value="outdoor">Outdoor & Casual</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="text" id="new-photo-desc" placeholder="Brief note / occasion description">
+        </div>
+      </div>
+
+      <div style="margin-top: 1.5rem; display: flex; justify-content: flex-end; gap: 0.75rem;">
+        <button id="submit-new-photo" class="btn btn-gold" style="width: 100%;">
+          <span>Add Photo to Gallery</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/gallery.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
